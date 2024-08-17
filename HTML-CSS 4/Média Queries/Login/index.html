@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="Estilo/Estilo.css">
+    <link rel="stylesheet" href="estilo/MQ.css">
+</head>
+<body>
+    
+    <header>
+        <section>
+            <main id="foto"></main>
+            <main id="formulario">
+                <h1>Inicie sua secção</h1>
+
+                <p>Seja bem vindo novamente, por favor digite eu nome de usuário e senha para aceder aos serviços</p>
+                <form action="Login.php" method="post" autocomplete="on">
+                    
+                    
+                    <div id="entrar">
+                        <label for="iduser">
+                            <img src="person_30dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="" class="dados">
+                        </label>
+                        <input type="email" name="iduser" id="user" required autocomplete="email">
+                    </div>
+
+                    <div id="entrar">
+                        <label for="idsenha">
+                            <img src="key_30dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="" class="dados">
+                        </label>
+                        <input type="password" name="idpass" id="pass" required autocomplete="current-password" >
+                    </div>
+
+                    <p>
+                        <input type="submit" value="Entrar" class="botao">
+                
+                    </p>
+                    
+                    <div class="esqueci">
+                        <a href="#">Esqueci a senha</a>
+                         <img src="passkey_30dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                    </div>
+            </main>
+            </form>
+        </section>
+    </header>
+</body>
+</html>

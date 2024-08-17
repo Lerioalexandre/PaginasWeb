@@ -1,0 +1,22 @@
+
+      body { 
+        background-color: rgb(73, 8, 237);
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+      }
+      h1 {
+        color: darkblue;
+        background-color: aqua;
+       }
+       h2{ 
+        color: rgb(255, 106, 0);
+       }
+       p{ 
+        text-align: justify;
+        font-family: 'Times New Roman', Times, serif;
+        color: bisque;
+       }
+       a { 
+        color: rgb(255, 81, 0);
+       }
+    

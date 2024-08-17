@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+/* Configurações gerais de estilo*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body, html{
+    width: 100vw;
+    height: 100vh;
+    background-color: gray;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+h1{
+    color: white;
+    text-shadow: 1px 1px 0px rebeccapurple;
+    padding: 10px;
+}

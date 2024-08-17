@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+/* Todas as demais mideas */
+/* 
+
+Typical Device Breakingpoints  (W3C)
+Pequenas telas: até 600px
+celular: 600px ate 768px 
+tablet: 768px até 992px
+Desktop: 992px até 1200px
+Telas grandes acima de 1200px
+*/ 
+
+/* para o exercicio actual pode se ignorar as telas pequnas ao definir a mideas */
+
+@media screen and (min-width: 768px) and (max-width:992px) {/*TABLET*/
+    body{
+        background-image: linear-gradient(to top, #d97d44, rgb(240, 159, 136));
+    }
+    section{
+        width: 90vw;
+        height: 80vh;
+    }
+    #foto{
+        float: left;
+        width: 35%;
+        height: 100%;
+        border-radius:20px 0px 0px 20px ;
+    }
+    #formulario{
+        float: right;
+        width: 65%;
+        text-align: center;
+    }
+    img.dado{
+        width:35px;
+    }
+    #user, #pass{
+        width: calc(90% - 20px);
+        
+        
+    }
+    
+}
+
+@media screen and (min-width: 992px) and (max-width:1200px) {/*DESKTOP*/
+    bode{
+        background-image: linear-gradient(to top, #d97d44, rgb(240, 159, 136));
+    }
+    section{
+        width: 80vw;
+    }
+    #foto{
+        float: left;
+        width: 35%;
+        height: 100%;
+        border-radius:20px 0px 0px 20px ;
+    }
+    #formulario{
+        float: right;
+        width: 65%;
+        text-align: center;
+    }
+}
+
+@media screen and  (min-width:1200px) {/*TV*/
+    body{
+        background-image: linear-gradient(to top, #d97d44, rgb(240, 159, 136));
+    }
+    section{
+        width: 70vw;
+    }
+    #foto{
+        float: left;
+        width: 50%;
+        height: 100%;
+        border-radius:20px 0px 0px 20px ;
+    }
+    #formulario{
+        float: right;
+        width: 50%;
+        text-align: center;
+    }
+    h1{
+        margin-bottom: 14px;
+        font-size:40px;
+        
+    }
+    p{
+        font-size: 20px;
+    }
+
+  
+}
+
+@media print {/*PRINT*/
+    body{
+        background-color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    section{
+        width: 90vw;
+    }
+    #foto{
+        float: left;
+        width: 35%;
+        height: 100%;
+        border-radius:20px 0px 0px 20px ;
+    }
+    #formulario{
+        float: right;
+        width: 65%;
+        text-align: center;
+    }
+}

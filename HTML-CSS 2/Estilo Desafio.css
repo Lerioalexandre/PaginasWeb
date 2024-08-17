@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+body{
+background-color: rgb(107, 214, 125); 
+}
+header{
+text-align: center;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+background-image:linear(rgba(40, 150, 40, 0.69) rgba(8, 91, 8, 0.797));
+ 
+}
+
+header >nav>a{
+text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;
+border: 0px 8px;
+color: white;
+text-align: left;
+font-size: 20px;
+}
+header >nav>a:hover{
+    text-decoration: none;
+    background-color: green;
+   
+    }
+
+main{
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    margin: 15px 0px;
+    padding: 0px 40px;
+    border: 0px 45px;
+}
+
+h1{
+    color: rgba(12, 117, 12, 0.657);
+}
+
+h2{
+    color: rgba(12, 117, 12, 0.657);
+   
+}
+h4{
+   background-color: rgba(76, 146, 61, 0.767); 
+   font-family: Arial, Helvetica, sans-serif;
+   border-radius: 10px 10px 0px 0px ;
+   color: white;
+   padding: 5px 0px 5px 5px ;
+}
+
+nav#Abaixo{
+    background-color: rgba(92, 211, 169, 0.821);
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+    color: green;
+
+}
+nav#Abaixo>a{
+    text-decoration: underline;
+    color: green;
+
+}
+div>a :hover{
+    text-decoration: underline;
+    color: black;
+
+}
+section>a{
+    margin:0px 90px ;
+    text-decoration: underline;
+    color: black;
+
+}
+footer{
+    background-color: green;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+section>{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+div{
+    display: inline-block;
+    height: 170px;
+    width: 170px;
+
+    margin-left: 95px
+
+ }
+ div.oreo{
+    margin-left: 100px;
+    padding-left: 95px;
+    
+
+ }

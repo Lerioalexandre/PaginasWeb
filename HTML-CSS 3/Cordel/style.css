@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+/*  <>  {} */
+
+
+@font-face {
+    font-family:Borel ;
+    src: url(Borel,Exo_2/Exo_2/static/Exo2-SemiBold.ttf);
+}
+@font-face {
+    font-family:Poetsen ;
+    src: url(Poetsen_One/PoetsenOne-Regular.ttf);
+} 
+
+*{
+    margin:0px;
+}
+
+header{
+    text-align: center;
+    color: white;
+    background-color: black;
+    
+}
+header p{
+    font-family: Borel;
+    text-align: center;
+    padding-bottom: 20px;
+}
+h1{
+    font-family: Borel;
+    font-variant: small-caps; 
+    padding-top: 20px;
+    font-size: 10vw;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+     text-decoration: underline;
+     background-color: white; 
+     color: rgb(0, 0, 0); 
+}
+
+
+.branco{
+    background-color: rgb(218, 210, 200);
+    padding: 10px 0px;
+
+}
+ p{
+    line-height: 2em;
+    font-family:Poetsen;
+    text-align: left;
+    padding: 15px 0px 5px 0px;
+    margin-left: 20px;
+    font-size: 3.5vw;
+}
+
+.Img1{
+    background:black url(imagens/background001.jpg)  right center fixed;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.477);
+}
+.Img1 p {
+    background-color: rgba(0, 0, 0, 0.187);
+    
+    display: inline-block;
+}
+
+
+.Img2{
+    background: black url(imagens/background002.jpg) right center fixed;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.477);
+}
+.Img2 p{
+    background-color:rgba(0, 0, 0, 0.187) ;
+    
+    display: inline-block;
+}
+
+
+
+footer{
+   background-color: black;
+   color: white;
+
+}
+footer p{
+    text-align: center;
+   font-family:'Times New Roman', Times, serif ; 
+   padding: 0px;
+
+}

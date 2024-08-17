@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imaguem Diferentes</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>tenta abrir em varios dispositivos ou ajutar a tamanho de janela do navegador</p>
+    <picture>
+        <source media="(max-width:550px )" srcset="Ex A8/t.png" type="image/png">
+        <img src="Ex A8/p.png" alt="Imagens flexivel">
+        <!--Essa porra não eta a funcionar-->
+    </picture>
+    <h1>Reprodução de aundio</h1>
+     <p>Reproduz o audio abaixo de forma simples</p>
+     <audio src="Ex A8/Plutónio - Coisas na Life (Letra)(MP3_160K).mp3" controls ></audio>
+     <!--A tag abaixo serve para carregar diferentes tipos de audio para navargadore incompativeis, se não carregar um carregará o seguinte-->
+     <audio>
+        <!--Na linha de cima pode adicionar o "PRELOAD" com os parametros Auto-para carrgar o site apos todo audio. Metadata-carraga informações simple. e None- Que não carrega nada-->
+        <source src="c:\Users\Lério\Music\Deedz B _ Deejay Telio - Meu Ego (Video Oficial)(MP3_160K).mp3" type="audio/mp3">
+        <!--No final podemos colocar o "Loop" para repetir o audio no final-->
+        <source src="c:\Users\Lério\Music\Twenty\Fama.m4a" type="audio/m4a">
+        <p>O seu navegador não é compativel com ficheiros de audio clicke aqui para <a href="Ex A8/Plutónio - Coisas na Life (Letra)(MP3_160K).mp3">baixar o arquivo MP3</a></p>
+     </audio>
+</body>
+</html>

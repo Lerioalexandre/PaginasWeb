@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+/* Estilos para impressora*/
+
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    margin: 10px;
+    padding: 10px;
+}
+
+menu{
+    display: none;
+}
+
+main::after{
+    content:"Este artigo foi impresso atravez do site Estudos.com";
+}

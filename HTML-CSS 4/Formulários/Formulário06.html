@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>formulário</h1>
+    <form action="php.php" method="post" autocomplete="on">
+        <p>
+            <label for="idcor">Cor:</label>
+            <input type="color" name="color" id="idcor" value="#fdaccf">
+        </p>
+        <p>
+            <label for="idsatisfação">Nível de Satisfação:</label>
+            <input type="range" name="satisfação" id="idsatisfação" min="1" max="10">
+        </p>
+        <p>
+            <label for="idfoto">Imaguem:</label>
+            <input type="file" name="foto" id="idfoto">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>

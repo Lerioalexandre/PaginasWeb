@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Complexas</title>
+    <style>
+                /*  {}  */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 580px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        thead > tr >th{
+            position: sticky;
+            top: 0;
+        }
+
+        td, th{
+            border: 1px solid black;
+            padding: 5px;
+        }
+        th{
+            background-color: rgb(126, 126, 126);
+        }
+        .data{
+            width: 50px;
+        }
+        .descritivo{
+            width: 50px;
+        }
+        .debito{
+            width: 50px;
+             text-align: right;       
+        }
+        
+        .saldo{
+            width: 50px;
+            text-align: right;
+        }
+
+        tbody tr:nth-child(odd){
+            background-color: rgb(210, 68, 68);
+        }
+        tbody tr:nth-child(even){
+            background-color: rgb(81, 198, 96);
+        }
+        caption{
+            background-color: rgb(193, 190, 190);
+            padding: 10px;
+            font-weight: bold;
+            font-size: 19px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Tabela</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Data do Movimento</th>
+                <th>Discritivo</th>
+                <th>Débito</th>
+                <th>Crédito</th>
+                <th>Saldo Pós Movimento</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>Total</th>
+                <td></td>
+                <td></td>
+                <td class="debito"><strong>150.000,00</strong></td>
+                <td class="debito"><strong>17.399,36</strong></td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td class="data">2023-07-05</td>
+                <td class="descritivo">transferência</td>
+                <td class="debito"></td>
+                <td class="debito">130.000,00</td>
+                <td class="saldo">130.079,36</td>
+
+            </tr>
+            <tr>
+                <td class="data">2023-07-10</td>
+                <td class="descritivo">Transferência</td>
+                <td class="debito">-60.000,00</td>
+                <td class="debito"></td>
+                <td class="saldo">70.079,36</td>
+            </tr>
+            <tr>
+                <td class="data">2023-07-10</td>
+                <td class="descritivo">Sem cartão</td>
+                <td class="debito">5.000,00</td>
+                <td class="debito"></td>
+                <td class="saldo">65.079,36</td> 
+            </tr>
+            <tr>
+                <td class="data">2023-07-10</td>
+                <td class="descritivo">Compra TPA</td>
+                <td class="debito">1.450,00</td>
+                <td class="debito"></td>
+                <td class="saldo">63.629,36</td> 
+            </tr>
+            <tr>
+                <td class="data">2023-07-13</td>
+                <td class="descritivo">Levantamento</td>
+                <td class="debito">40.00000</td>
+                <td class="debito"></td>
+                <td class="saldo">23.629,36</td> 
+            </tr>
+            <tr>
+                <td class="data">2023-07-13</td>
+                <td class="descritivo">Levantamento</td>
+                <td class="debito">23.000,00</td>
+                <td class="debito"></td>
+                <td class="saldo">629,36</td> 
+            </tr>
+            <tr>
+                <td class="data">2023-07-14</td>
+                <td class="descritivo">Compra TPA</td>
+                <td class="debito">310,00</td>
+                <td class="debito"></td>
+                <td class="saldo">319,36</td> 
+            </tr>
+            <tr>
+                <td class="data">2023-07-14</td>
+                <td class="descritivo">Compra TPA</td>
+                <td class="debito">310,00</td>
+                <td class="debito"></td>
+                <td class="saldo">9,36</td> 
+            </tr>
+            <tr>
+                <td class="data">2023-08-15</td>
+                <td class="descritivo">Transferência</td>
+                <td class="debito"></td>
+                <td class="debito">20.000,00</td>
+                <td class="saldo">20.009,36</td> 
+            </tr>
+            <tr>
+                <td class="data">2023-08-18</td>
+                <td class="descritivo">Serviço Especial</td>
+                <td class="debito">2.110,00</td>
+                <td class="debito"></td>
+                <td class="saldo">17.899,36</td> 
+            </tr>
+            <tr>
+                <td class="data">2023-08-18</td>
+                <td class="descritivo">Transferência</td>
+                <td class="debito">500,00</td>
+                <td class="debito"></td>
+                <td class="saldo">17.399,36</td> 
+            </tr>
+        </tbody>
+        <caption>Meu extrato Bancario</caption>
+    </table>
+
+    
+</body>
+</html>

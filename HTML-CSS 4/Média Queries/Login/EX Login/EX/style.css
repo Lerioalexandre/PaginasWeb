@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+div{
+    background-image: linear-gradient(to top, rgb(205, 80, 172), rgb(39, 177, 177));
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+     width: 37vw;
+     height: 57vh;
+     background-color: white;
+     background: blanchedalmond url(../portal.jpg) center center no-repeat fixed;
+     background-size: cover;
+     position:relative;
+     border-radius: 10px;
+
+}
+section{
+    background-color: bisque;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%);
+    width: 37vw;
+    height: 29vh;
+    border-radius: 0px 0px 10px 10px;
+
+}
+h1{
+    text-align: center;
+}
+p{
+    padding: 3px;
+}
+#esqueci, #enviar{
+    width: 35vw;
+    border: 1px solid rgba(0, 0, 0, 0.55);
+    border-radius: 2px;
+    padding:5px ;
+    
+}
+#idsenha, #idemail{
+    width: 32.6vw;
+    border: 1px solid rgba(0, 0, 0, 0.55);
+    border-radius :2px;
+}
+#enviar{
+    background-color:darkcyan;
+    
+}
+
+
+/* Midea Query */
+
+/*Typical Device Breakingpoints  (W3C)
+Pequenas telas: até 600px
+celular: 600px ate 768px 
+tablet: 768px até 992px
+Desktop: 992px até 1200px
+Telas grandes acima de 1200px
+*/ 
+@media screen and (min-width: 768px) and (max-width:992px) {
+    div{
+        background-color: aliceblue;
+    }
+}
+

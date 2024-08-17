@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+/*
+#= ID
+.= CLASS
+:= PSEUDO-CLASSES
+::= PSEUDO-ELEMENTOS
+>= FILHO D(DerivaDo)
+*/
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+        a{
+          color: rgb(9, 142, 139);  
+          text-decoration: none;
+          font-weight: bold;
+        } /*Quano o link já foi visitao*/
+        a:visited{
+            color: rgba(219, 20, 20, 0.828)
+            
+        }/*Animações com o curso por cima*/
+        a:hover{
+             color: blue;
+             text-decoration: underline;
+             font-family: 'Times New Roman', Times, serif;
+        }
+        /*Controla a cor quando o link é clicado*/
+        a:active{
+            color:rgba(219, 20, 20, 0.828)
+        }/*Um texte breve apos as eclarações*/
+        a::after{
+            content: "link";
+            text-decoration: none;
+            font-weight: normal;
+            color: blueviolet;
+            font-weight: 300;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizndo Links</h1>
+    <ul>
+        <li><a href="https://Instagram.com/lerio_alexandre" target="_blank">Instagram</a></li>
+        <li><a href="https://X.com/lerio_alexandre" target="_blank">X</a></li>
+        
+
+    </ul>
+</body>
+</html>

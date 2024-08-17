@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+/* Modo paisagem ou deitado*/
+
+body{
+    background-color: burlywood;
+    background-image: url(../imagens/cev-landscape.jpg);
+    
+}

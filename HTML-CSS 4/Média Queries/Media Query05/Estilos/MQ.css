@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/* 
+para telas de tamnhos diferentes usa-se as dimenções de tela do W3C
+*/
+/* 
+
+Typical Device Breakingpoints  (W3C)
+Pequenas telas: até 600px
+celular: 600px ate 768px 
+tablet: 768px até 992px
+Desktop: 992px até 1200px
+Telas grandes acima de 1200px
+*/ 
+/*Para o exercício atual usa-se apenas uma medida para telas pequena e grandes*/
+@media screen and( min-width:768px) {
+    p.menu{
+        display: none;
+    }
+    menu{
+        display:block;
+    }
+    li{
+        display: inline-block;
+        border: 5px;
+    }
+    main{
+        width: 780;
+    }
+}
+
+/* Wue fique restado que isso não funcionou */

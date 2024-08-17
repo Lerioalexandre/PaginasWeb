@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>formulário</h1>
+    <form action="php.php" method="post" autocomplete="on">
+        <p>
+            <label for="idprovincia">Provincia</label>
+            <select name="provincia" id="idprovincia">
+                <option value="KN">Kwanza Norte</option>
+                <option value="KS">Kwanza Sul</option>
+                <option value="LN">Lunda Norte</option>
+                <option value="LS">Lunda Sul</option>
+                <optgroup label="Litoral">
+                    <option value="BG">Benguela</option>
+                    <option value="LD">Luanda</option>
+                    <option value="NB">Namibe</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="idprof">Profissão</label>
+            <input type="text" name="prof" id="idprof" list="idlista">
+            <datalist id="idlista">
+                <option>Professor</option>
+                <option>Pedreiro</option>
+                <option>Eletrecista</option>
+                <option>Arquiteto</option>
+                <option>TI</option>
+                <option>Contablista</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="idsms">Mensagem</label> <br>
+            <textarea name="sms" id="idsms" cols="35" rows="5"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>

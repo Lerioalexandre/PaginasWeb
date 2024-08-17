@@ -1,0 +1,70 @@
+@charset "UTF-8";
+    body{
+            background-color: rgb(188, 188, 153);
+            margin: 0%;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+       
+        header{
+            font-family: 'Times New Roman', Times, serif;
+            background-color: aquamarine;
+            text-align: center;
+            margin: 10px;
+        }
+        main{
+            padding: 10px;
+            margin: 10px;
+        }
+        aside{
+            background-color: rgb(122, 54, 54);
+            text-align: center;
+            color: white;
+            font-family: serif;
+            font-size: larger;
+            border-radius: 10px;
+            margin: 0px 95px 0px 95px;
+        }
+        #Rec{
+            background-color: rgb(225, 163, 83);
+            margin:auto;
+            box-shadow: 2px 2px 8px rgb(2, 2, 30);
+            border-radius: 2px 2px 15px 15px;
+            margin: 2px;
+        }
+        #avisos{
+            background-color: rgb(225, 163, 83);
+            border-radius: 2px 2px 15px 15px;
+            padding: 1px;
+            margin: 2px;
+        
+
+        }
+        nav{
+            background-color: rgb(25, 18, 18);
+            color: beige;
+            padding: 3px;
+            
+            
+        }   
+        nav > a {
+            text-decoration: none;
+            color: aliceblue;
+            font-weight: bold;
+            margin-right: 15px;
+            margin-left: 15px;  
+        } 
+        nav > a:hover {
+            text-decoration: underline;
+            color: blue;
+
+     }  
+    footer{
+text-align: right;
+background-color: white;
+font-family: 'Times New Roman', Times, serif;
+color: rgb(57, 33, 33);
+margin: 4px;
+border-radius: 15px ;
+}
+ 
+    

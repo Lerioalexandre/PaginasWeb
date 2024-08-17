@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Complexa</title>
+    <style>
+/*  <>  {} */
+        th, td {
+            border: 1px solid black;
+            padding: 2px;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        table{
+            border-collapse: collapse;
+        }
+        th{
+            background-color: rgb(100, 95, 95);
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Tabela 02</h1>
+
+    <table>
+
+        <thead>
+            <tr>
+                <th  rowspan="2">Área</th>
+                <th   rowspan="2">Disciplina</th>
+                <th colspan="2">Nota</th>
+               
+                <th   rowspan="2">Média</th>
+            </tr>
+        
+        
+            <tr><th>Nota 1</th>
+                <th>Nota 2</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td rowspan="4" ><strong>Exatas</strong></td>
+                <td>C++</td>
+                <td>17</td>
+                <td>19</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                
+                <td>JavaScrip</td>
+                <td>12</td>
+                <td>16</td>
+                <td>14</td>
+            </tr>
+            <tr>
+                
+                <td>PHP</td>
+                <td>15</td>
+                <td>16</td>
+                <td>16</td>
+            </tr>
+            <tr>
+                
+                <td>PYTHON</td>
+                <td>20</td>
+                <td>20</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <th colspan="4">Média total</th>
+                <th>17</th>
+            </tr>
+            <tr>
+                <td rowspan="2"><strong>Humanas</strong></td>
+                <td>HTML</td>
+                <td>19</td>
+                <td>17</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>17</td>
+                <td>17</td>
+                <td>17</td>
+
+            </tr>
+            <tr>
+                <th colspan="4">Média total</th>
+                <th>18</th>
+            </tr>
+        </tbody>
+
+    </table>
+
+</body>
+</html>
